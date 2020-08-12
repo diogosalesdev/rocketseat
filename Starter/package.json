@@ -1,0 +1,7 @@
+{
+  "name": "@rocketseat/starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "privat": true,
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "monorocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "pravite":true,
+  "workspaces": {
+    "packages": [
+      "gostack/*",
+      "starter/*"
+    ]
+  },
+  "author": "diogosalesdev <diogosalesdev@gmail.com>",
+  "license": "MIT"
+}
