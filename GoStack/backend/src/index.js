@@ -1,8 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const { uuid, isUuid } = require('uuidv4');
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 function logRequests(req, res, next) {
@@ -35,7 +37,7 @@ app.post('/projects', (req, res) => {
   const { title, owner } = req.body;
   const project = {id: uuid(), title, owner};
   projects.push(project)
-  return res.json(project);
+  // return res.json(project);
 });
 
 app.put('/projects/:id', (req, res) => {
