@@ -1,0 +1,17 @@
+{
+  "name": "@rocketseat/backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.2"
+  }
+}

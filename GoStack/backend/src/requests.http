@@ -1,0 +1,28 @@
+
+
+### LIST
+GET http://localhost:3333/projects?title=Node
+Content-Type: application/json
+
+### CREATE
+POST http://localhost:3333/projects
+Content-Type: application/json
+
+{
+  "title": "Node",
+  "owner": "Diogo Sales"
+}
+
+### UPDATE
+PUT http://localhost:3333/projects/c37f1c8a-8857-4fd5-9c68-95778e43e1ef
+Content-Type: application/json
+
+{
+  "title": "App Mobile",
+  "owner": "Diogo Sales"
+}
+
+### DELETE
+DELETE http://localhost:3333/projects/3
+Content-Type: application/json
+
